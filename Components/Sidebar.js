@@ -1,5 +1,5 @@
 import { AtSignIcon, CalendarIcon, EditIcon } from "@chakra-ui/icons";
-import { Flex, HStack, List, ListIcon, ListItem } from "@chakra-ui/react";
+import { List, ListIcon, ListItem } from "@chakra-ui/react";
 import Link from "next/link";
 
 export default function Sidebar() {

@@ -30,8 +30,8 @@ export default function Dashboard() {
   return (
     <SimpleGrid columns={4} spacing={4} minChildWidth="250px">
       {data?.data?.map((task) => (
-        <Card key={task.id} border="10px" borderColor="purple.200">
-          <CardHeader>
+        <Card key={task.id} borderTop="4px" borderColor="purple.400" bg="white">
+          <CardHeader borderBottom="2px" borderColor="pink.100">
             <Flex>
               <Box w="50px" h="50px">
                 <Text>AV</Text>
